@@ -1,0 +1,7 @@
+interface:
+  display_name: "Home Sketch Alive"
+  short_description: "把室内场景变成带叙事亮点和可选微动画的拼贴插画"
+  default_prompt: "使用 $home-sketch-alive 整理并校正我上传的室内场景，生成带自然叙事亮点的白线色块拼贴插画；如果我要求动图，再用代码加入一两个微动画。"
+
+policy:
+  allow_implicit_invocation: true

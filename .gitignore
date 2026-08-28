@@ -1,0 +1,6 @@
+backups/
+dist/
+output/
+__pycache__/
+*.py[cod]
+
