@@ -2,87 +2,70 @@
 name: home-sketch-alive
 description: >
   Transform a user-provided interior photo, floor plan, elevation, overhead view,
-  axonometric, cutaway, or model image into one fixed hand-drawn abstract graphic
-  architectural illustration with flat color blocks, white outlines, and restrained
-  paper-collage texture and a scene-supported storytelling highlight. Use when the user
-  wants light cleanup and view correction followed by a stylized still interior
-  illustration.
+  axonometric, cutaway, or model image into a hand-drawn architectural editorial
+  illustration with flat color blocks, warm-white outlines, restrained paper texture,
+  and one scene-supported storytelling highlight. Use when the user wants light
+  cleanup and view correction followed by a stylized still interior illustration.
 ---
 
 # Home Sketch Alive
 
 ## Objective
 
-Turn one interior image into a recognizable architectural editorial illustration in
-the single style defined by this skill. First create a tidier, deliberately corrected
-spatial base; then add one natural storytelling highlight while changing its visual
-language.
+Turn one interior source into a recognizable architectural editorial illustration.
+Tidy and correct the existing view first, then change its visual language without
+redesigning the space.
 
 ## Workflow
 
-Default to two image edits and a still result. For an already tidy photo, plan,
-elevation, model, or axonometric image, combine the edits when the same constraints can
-be preserved reliably.
+Default to two image edits. For an already tidy plan, elevation, model, axonometric, or
+photo, combine the edits only when the same spatial and cleanup constraints can be
+preserved reliably.
 
 ### 1. Create a Lightly Curated Base
 
 Read [references/input-routing.md](references/input-routing.md). Use the original image
-as the authority for architecture, spatial proportions, openings, functional zones,
-major furniture, and the kind of observation being used. Apply only the selected
-route's geometric correction; do not convert the source into another view type or
-invent unseen space.
-
-Group, reduce, or omit temporary small clutter that interferes with reading the space.
-Retain a few representative objects that communicate function and lived-in character.
-Do not redesign the layout, lighting, furniture, architecture, or circulation.
+as the authority for architecture, proportions, openings, zones, major furniture, and
+observation type. Apply only the selected route's geometric correction. Group or omit
+temporary small clutter only; retain representative lived-in objects.
 
 ### 2. Apply the Fixed Illustration Style
 
-Read [references/style-paper-cut-white-line.md](references/style-paper-cut-white-line.md)
-and [references/story-highlights.md](references/story-highlights.md). Apply the fixed
-style and choose one scene-supported primary highlight, with at most one subordinate
-secondary cue. The accepted curated base is the sole authority for view, projection,
-composition, crop, architecture, spatial relationships, and furniture during this
-step; the highlight may enhance or add only a small, plausible atmospheric or lived-in
-cue.
+Read [references/style-paper-cut-white-line.md](references/style-paper-cut-white-line.md),
+[references/story-highlights.md](references/story-highlights.md), and
+[references/style-reference.md](references/style-reference.md). Use the accepted base
+as the authority for the scene and as the primary color evidence. Use up to two
+route-matched references as examples of linework, flatness, object simplification,
+texture, and palette harmony. The references may help compress saturation and contrast
+but must not impose an unsupported global cast or recolor major surfaces.
 
-Do not offer or silently substitute another style. Always retain the accepted still as
-a deliverable.
+Do not use style references during the base edit. Choose one primary storytelling
+highlight supported by the scene, with at most one subordinate cue.
 
-## Spatial Locks
+## Non-Negotiable Locks
 
-Across both edits, preserve the original:
-
-- observation type, room outline, scale, and spatial proportions;
-- walls, openings, doors, windows, and relationships between zones;
-- major furniture identity, position, orientation, relative size, and function.
-
-The first edit may correct roll, lens distortion, vertical convergence, page skew, or
-inconsistent perspective only as defined by the selected route. Keep orthographic
-sources orthographic, axonometric sources axonometric, elevations frontal, overhead
-views overhead, and perspective scenes perspective. Once the curated base is accepted,
-lock its camera, projection, perspective, vanishing points, composition, and crop for
-the style edit.
-
-## Cleanup Boundary
-
-Reduce clutter without erasing life. It is acceptable to consolidate excess cups,
-cables, packaging, utensils, shoes, clothing, bottles, tools, and shelf contents into
-fewer representative objects or simple groups. Preserve useful identity cues such as
-a computer, lamp, books, plants, a cup, shoes, or cookware when supported by the
-source.
-
-Never move, rotate, resize, replace, or redesign major furniture or architecture as
-part of cleanup. Do not clear every surface or turn the home into a showroom.
+- Preserve the source observation type, crop, room outline, openings, functional
+  zones, and major furniture relationships.
+- Apply only the geometric correction allowed by the selected route; do not invent
+  hidden space or convert the source to another projection.
+- Cleanup may simplify temporary small clutter but may not move, replace, or redesign
+  architecture or major furniture.
+- Change visual expression rather than spatial content. Do not add people, captions,
+  arrows, or watermarks.
 
 ## Final Check
 
-Before delivery, confirm that the image:
+Accept the still only when it:
 
-1. is unmistakably the same interior using the selected correction route and layout;
-2. changes no architecture, opening, functional zone, or major furniture relationship;
-3. reduces only distracting small clutter and retains some lived-in evidence;
-4. uses the fixed flat color-block, warm-white-line, restrained paper-collage style;
-5. contains one natural storytelling highlight rather than an unrelated decorative
-   gimmick;
-6. contains no people, captions, arrows, or watermarks.
+1. remains unmistakably the same interior and observation type;
+2. preserves recognizable major color identities and the scene's broad warm-neutral-
+   cool character while allowing restrained palette harmonization;
+3. uses flat matte shapes, a visible warm-white outline network, and subtle neutral
+   paper texture without photographic or model-like rendering;
+4. retains some lived-in evidence and uses one natural storytelling highlight;
+5. contains no unrelated additions or text.
+
+If the style check fails, retry the style edit once with the same accepted base and
+route-matched references, stating the observed failure. Regenerate the base only when
+its geometry failed. If the retry still misses a requirement, disclose the mismatch
+instead of describing the result as compliant.

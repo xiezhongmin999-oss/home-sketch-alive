@@ -33,8 +33,8 @@ scenes, strengthen an existing feature rather than adding another one.
   beams, floating objects, or unrelated decorative props.
 - Do not create several competing focal points or let the highlight obscure spatial
   reading.
-- Preserve the fixed palette and white-line system. Use a small accent or flat tonal
-  plane rather than cinematic gradients and realistic glow.
+- Preserve the established color relationships and white-line system. Use a small
+  accent or flat tonal plane rather than cinematic gradients and realistic glow.
 
 Accept the highlight when it makes the viewer imagine a moment in the room while the
 space itself still reads first.
